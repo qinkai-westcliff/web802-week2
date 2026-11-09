@@ -1,0 +1,4 @@
+$ node app.js 4
+Number of documents inserted: 2
+  inserted: Pacoima, CA
+  inserted: Ketchikan, AK

@@ -1,0 +1,5 @@
+$ node app.js 6
+Income for all cities in California (3 cities):
+  Los Angeles  $36954
+  Norwalk      $66453
+  Pacoima      $60360

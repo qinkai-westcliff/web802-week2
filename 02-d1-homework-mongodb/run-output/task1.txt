@@ -1,0 +1,3 @@
+$ node app.js 1
+Database created!
+  database: statsdb

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>game_hwk - manual harness</title>
+  <!-- Font Awesome, for the icons the game swaps in -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body { background: #2b2b3c; color: #eee; font-family: system-ui, sans-serif; padding: 2rem; }
+    #board { display: grid; grid-template-columns: repeat(4, 90px); gap: 10px; margin-bottom: 1rem; }
+    .gametile {
+      width: 90px; height: 90px; background: #44445a; border: 0; border-radius: 8px;
+      color: #eee; font-size: 0; display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: background .2s;
+    }
+    .gametile.displayTile { font-size: 2em; background: #5a5a7a; }
+    .gametile.hideTile { color: transparent; }
+    .panel { display: flex; gap: 2rem; align-items: center; margin-top: 1rem; }
+    .panel span { font-weight: 700; }
+    button { padding: .5rem 1rem; border-radius: 6px; border: 0; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Memory game</h1>
+
+  <div id="board">
+    <button class="gametile hideTile" id="t1"></button>
+    <button class="gametile hideTile" id="t2"></button>
+    <button class="gametile hideTile" id="t3"></button>
+    <button class="gametile hideTile" id="t4"></button>
+    <button class="gametile hideTile" id="t5"></button>
+    <button class="gametile hideTile" id="t6"></button>
+    <button class="gametile hideTile" id="t7"></button>
+    <button class="gametile hideTile" id="t8"></button>
+    <button class="gametile hideTile" id="t9"></button>
+    <button class="gametile hideTile" id="t10"></button>
+    <button class="gametile hideTile" id="t11"></button>
+    <button class="gametile hideTile" id="t12"></button>
+  </div>
+
+  <div class="panel">
+    <button id="startGame">Start Game</button>
+    <button id="endGame">End Game</button>
+    <div>Timer: <span id="timer">0</span></div>
+    <div>Moves: <span id="clicks">0</span></div>
+    <div>Score: <span id="score">0</span></div>
+  </div>
+
+  <script src="../game_hwk.js"></script>
+</body>
+</html>

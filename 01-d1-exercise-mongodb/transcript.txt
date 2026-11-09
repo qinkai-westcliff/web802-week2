@@ -1,0 +1,12 @@
+$ node app.js
+--- step 1: create the database ---
+Database created!
+--- step 2: create the collection ---
+Collection created!
+--- step 3: insert one document ---
+1 document inserted
+--- step 4: insert many documents ---
+Number of documents inserted: 14
+--- step 5: findOne ---
+Westcliff Inc
+--- step 6: find with a query ---

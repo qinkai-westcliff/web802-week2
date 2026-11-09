@@ -1,0 +1,10 @@
+$ node app.js 8
+Records sorted in ascending order by state:
+  AK  Ketchikan    99950  $38910  age 46
+  CA  Los Angeles  90011  $36954  age 28
+  CA  Norwalk      90650  $66453  age 35
+  CA  Pacoima      91331  $60360  age 33
+  IL  Chicago      60629  $42019  age 31
+  NY  Corona       11368  $50797  age 32
+  PR  San Juan     00926  $34781  age 44
+  TX  El Paso      79936  $54692  age 31

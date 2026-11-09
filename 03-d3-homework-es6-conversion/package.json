@@ -1,0 +1,15 @@
+{
+  "name": "m3-w2-d3-homework",
+  "version": "1.0.0",
+  "description": "WEB802 Module 3 Week 2 Day 3 homework - game_hwk.js converted to ES6",
+  "main": "game_hwk.js",
+  "scripts": {
+    "test": "node test/verify.js"
+  },
+  "keywords": ["es6", "web802", "westcliff"],
+  "author": "Qinkai Mao",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^27.0.0"
+  }
+}

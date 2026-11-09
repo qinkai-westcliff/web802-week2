@@ -1,0 +1,3 @@
+$ node app.js 2
+Collection created!
+  collection: statsdb.uscensus

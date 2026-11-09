@@ -1,0 +1,2 @@
+$ node app.js 3
+Number of documents inserted: 6

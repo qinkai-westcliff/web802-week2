@@ -1,0 +1,2 @@
+$ node app.js 5
+Corona, NY zip code: 11368

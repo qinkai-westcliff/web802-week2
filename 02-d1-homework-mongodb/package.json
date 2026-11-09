@@ -1,0 +1,16 @@
+{
+  "name": "m3-w2-d1-homework",
+  "version": "1.0.0",
+  "description": "WEB802 Module 3 Week 2 Day 1 homework - MongoDB statsdb / uscensus",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "reset": "node app.js --reset"
+  },
+  "keywords": ["mongodb", "web802", "westcliff"],
+  "author": "Qinkai Mao",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^7.8.0"
+  }
+}
